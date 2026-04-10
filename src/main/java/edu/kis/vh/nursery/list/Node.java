@@ -2,9 +2,14 @@ package edu.kis.vh.nursery.list;
 
 public class Node {
 
+<<<<<<< accessory-hermetization
     private int value;
     private Node prev;
     private Node next;
+=======
+    public final int value;
+    public Node prev, next;
+>>>>>>> master
 
     public Node(int i) {
         value = i;
